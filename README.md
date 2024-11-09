@@ -17,4 +17,7 @@ Time-based Sales Analysis: Provides insights into daily and monthly sales patter
 
 Customer Ratings: Offers a breakdown of customer satisfaction levels, providing a view into product performance and quality.
 
+Month-to-Date (MTD) and Quarterly Analysis: The MTD and quarterly views allow for quick performance checks during the month or
+quarter, making it easier to track progress against targets and make adjustments in real time
+
 This dashboard aids in tracking key metrics in real-time, understanding customer preferences, and identifying high-performing regions, helping to drive targeted marketing and inventory planning strategies.
