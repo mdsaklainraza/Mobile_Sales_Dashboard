@@ -5,6 +5,25 @@ It provides a comprehensive analysis of mobile sales performance across various 
 including monthly sales trends, transaction counts, average pricing, and popular mobile brands and models. 
 The dashboard enables users to drill down into sales data by city, month, payment method, and other key indicators to help stakeholders make data-driven decisions.
 
+DAX Formula:
+
+Total_Sales = SUMX(Sales_Data,Sales_Data[Units Sold]*Sales_Data[Price Per Unit])
+
+Avg_Price = AVERAGE(Sales_Data[Price Per Unit])
+
+Total_Quantity = SUM(Sales_Data[Units Sold])
+
+Transaction = COUNTROWS(Sales_Data)
+
+Same Period Last Year = CALCULATE([Total_Sales],
+SAMEPERIODLASTYEAR(Custom_Date[Date].[Date]))
+
+Sales = Sales_Data[Units Sold]*Sales_Data[Price Per Unit]
+
+Rating Status = IF(Sales_Data[Customer Ratings]>=4,"Good",IF(Sales_Data[Customer Ratings]>2,"Average","Poor"))
+
+MTD = TOTALMTD([Total_Sales],Custom_Date[Date].[Date])
+
 Insights:
 
 Total Sales and Quantity: Showcases cumulative sales and quantity metrics, with detailed breakdowns by month and city.
