@@ -32,9 +32,10 @@ Top Performing Brands and Models: Visualizes sales distribution across popular m
 
 Sales by Payment Method: Illustrates customer payment preferences (UPI, Credit Card, Debit Card, Cash), which can aid in tailoring payment options.
 
-Time-based Sales Analysis: Provides insights into daily and monthly sales patterns, enabling strategic planning around peak sales periods.
+Year-over-Year Sales Comparison: By comparing sales with the same period from the previous year, the dashboard highlights growth or decline trends, helping assess the effectiveness of current strategies and identify long-term growth patterns.
 
-Customer Ratings: Offers a breakdown of customer satisfaction levels, providing a view into product performance and quality.
+Customer Satisfaction and Ratings: The dashboard includes customer ratings segmented into categories (Good, Average, Poor), providing direct feedback on product quality and customer experience. This insight can drive product improvements and enhance customer service.
+
 
 Month-to-Date (MTD) and Quarterly Analysis: The MTD and quarterly views allow for quick performance checks during the month or
 quarter, making it easier to track progress against targets and make adjustments in real time
